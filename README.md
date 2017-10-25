@@ -32,5 +32,13 @@ p {
 <h1>My First CSS Example</h1>
 <p>This is a paragraph.</p>
 
+<h2>My First JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
 </body>
 </html>
